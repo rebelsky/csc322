@@ -2,9 +2,48 @@
 
 <itemizedlist>
   <listitem>
-    Class 1: <ulink url="01.html">&title01;</ulink> (&date01;)
-    [<ulink url="01.md">Source</ulink>]
-    [<ulink url="01.pdf">PDF</ulink>]
+    Class 12: <ulink url="eboard.12.html">&title12;</ulink> (&date12;)
+    [<ulink url="eboard.12.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 11: <ulink url="eboard.11.html">&title11;</ulink> (&date11;)
+    [<ulink url="eboard.11.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 10: <ulink url="eboard.10.html">&title10;</ulink> (&date10;)
+    [<ulink url="eboard.10.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 9: <ulink url="eboard.09.html">&title09;</ulink> (&date09;)
+    [<ulink url="eboard.09.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 7: <ulink url="eboard.07.html">&title07;</ulink> (&date07;)
+    [<ulink url="eboard.07.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 6: <ulink url="eboard.06.html">&title06;</ulink> (&date06;)
+    [<ulink url="eboard.06.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 5: <ulink url="eboard.05.html">&title05;</ulink> (&date05;)
+    [<ulink url="eboard.05.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 4: <ulink url="eboard.04.html">&title04;</ulink> (&date04;)
+    [<ulink url="eboard.04.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 3: <ulink url="eboard.03.html">&title03;</ulink> (&date03;)
+    [<ulink url="eboard.03.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 2: <ulink url="eboard.02.html">&title02;</ulink> (&date02;)
+    [<ulink url="eboard.02.md">Source</ulink>]
+  </listitem>
+  <listitem>
+    Class 1: <ulink url="eboard.01.html">&title01;</ulink> (&date01;)
+    [<ulink url="eboard.01.md">Source</ulink>]
   </listitem>
 </itemizedlist>
 
