@@ -5,7 +5,10 @@
   may modify it for individual courses to better fit the structure and style
   of those courses.  Please read this document thoroughly and carefully
   so that neither you nor I have to deal with instances of academic 
-  dishonesty.</emphasis>
+  dishonesty.  Please also review the Computer Science Department's
+  policy on academic honesty, available at
+  <ulink url="http://www.cs.grinnell.edu/academic-honesty-policy"/>,
+  as that policy is in effect for this class.</emphasis>
 </para>
 
 <para>
@@ -113,6 +116,63 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   undertake that action).
 </para>
 
+<section id="basic-policies"><title>Basic Academic Honesty and Credit Policies</title>
+
+<para>
+  <emphasis>These basic policies are adapted from Janet Davis's
+  policies for CSC 322, which can be found at 
+  <ulink url="http://www.cs.grinnell.edu/~davisjan/csc/322/2015S/">
+  http://www.cs.grinnell.edu/~davisjan/csc/322/2015S/</ulink>.  Dr. Davis
+  gave verbal permission for me to reuse her materials.</emphasis>
+</para>
+
+<para>
+  When committing code to your team project, @mention each contributor
+  in the commit message. This lets git blame give you more information
+  about who can address questions regarding particular lines of code. This
+  will also help you identify your own contributions on GitHub for your
+  portfolio and for showing to future employers.
+</para>
+
+<para>
+  Each team must maintain their project code in a public repository on 
+  GitHub and must release their code under the MIT License. This approach 
+  ensures that current team members, future team members, and community 
+  partners will retain rights to your team's code, while protecting you 
+  and the College from legal liability.  We also rely on others' public
+  contributions in our own development, so it makes moral sense for us
+  to release code under an open license.  (Note that the Ruby on Rails 
+  framework is itself released under the MIT License, so it seems like
+  a reasonable framework for such projects.)
+</para>
+
+<para>
+  Any individuals outside your team who make conceptual contributions to
+  your project must be acknowledged and attributed with a comment in your
+  code. That is, you must give specific attribution for any assistance
+  you receive. The suggested acknowledgment format is "[Person X] helped
+  us to [do thing Y] by [explaining Z]."
+</para>
+
+<para>
+  You may copy code from an external source only as permitted by explicit
+  or implicit license. If you are not sure whether the author permits
+  copying, consult with your instructor or mentor.  When appropriate, you
+  might also contact the author directly.
+</para>
+
+<para>
+  You must include a citation (as a comment) for any code you copy from
+  an external source, whether a snippet, a whole module, or anything
+  in between.  Even if you adapt the code you copy, you must still
+  credit the source. In your comment, provide a title, author, year,
+  and page number (for print sources) or a URL (for Web sources). If
+  the code has an explicit license, you must include the license and
+  the copyright copied along with the code.
+</para>
+
+</section> <!-- basic-policies -->
+
 <section id="collaborative-work"><title>Collaborative Work</title>
 
 <para>
@@ -144,67 +204,15 @@ p. 39; Downloaded from <ulink url="http://www.grinnell.edu/offices/studentaffair
   design, code, implementation, whatever).
 </para>
 
+<para>
+  For CSC 322, you may assume that all work is collaborative except for
+  work that requires clear individual work.  In particular, all iterations
+  are collaborative, but your reflective documents are individual.  You
+  may, however, ask for peer advice and feedback on all reflective 
+  pieces except for the peer assessments.
+</para>
+
 </section>  <!-- collaborative-work -->
-
-<section id="kinds-of-work"><title>Categories of Work</title>
-
-<para>
-  In my classes, I assign a variety of types of work.  Different categories
-  have different expectations.
-</para>
-
-<para>
-  <emphasis>Laboratories</emphasis> are almost always collaborative.
-  You should generally plan to work on laboratories with at least one
-  other student.  When you're stuck on a problem, you should feel free to
-  ask for help from almost anyone (me, the class mentor, another student,
-  a TC, a friend, etc.), but include a note that you received such help.
-  If I ask you to write up a laboratory, you and your partner or partners
-  should do only one writeup.  You should not copy text from another
-  group's writeup.
-</para>
-
-<para>
-  <emphasis>Homework assignments</emphasis> and
-  <emphasis>projects</emphasis> may be individual or group assignments.
-  For either kind, you should feel free to ask for help from almost anyone
-  (me, the class mentor, another student, a TC, a friend).  If I give
-  an individual homework, I expect each individual to write up his or
-  her answers individually (no copying!).  However, you may certainly
-  ask a colleague to proofread or comment on your answers, provided
-  you cite that person.  If I give collaborative homework, each group
-  of students should write and turn in its own single set of answers.
-  However, you can still ask colleagues in other groups to proofread or
-  comment on your answers.  (Once again, you should cite them.)
-</para>
-
-<para>
-  <emphasis>Take-home examinations</emphasis> are always individual work.
-  You may refer to any written materials (e.g., textbooks, Web pages,
-  your personal notes) that you wish.  However, you may not talk to
-  anyone (except me or other faculty teaching the same course) about
-  the examination or related issues.  I'm very strict about this issue;
-  I want you to avoid <emphasis>all</emphasis> discussion about the exam,
-  not just questions about the material on the exam.  You certainly can't
-  ask someone how to do a problem.  But you can't ask about other things,
-  either.  For example, you may not even ask a tutor or mentor how to use
-  the programming language for the exam.  Similarly, you may not ask a
-  colleague how much they've done on the exam or whether they've finished
-  a problem (and you can't brag about finishing a problem either).
-  At times, I may give you permission to talk to the course mentor about
-  an exam, but please make sure that you have explicit permission.
-</para>
-
-<para>
-  <emphasis>In-class quizzes and examinations</emphasis> are also always
-  individual work.  You may not talk during class or discuss the exam with
-  anyone in class.  You may ask me questions.  My in-class examinations
-  are typically closed-book and closed computer.  However, I typically
-  allow students to bring one sheet (8.5 x 11 inches) of hand-written
-  notes to the exam.
-</para>
-
-</section>  <!-- kinds-of-work -->
 
 <section id="citing-code"><title>Citing Program Code</title>
 
@@ -313,76 +321,6 @@ Visited 10 January 2014).
 
 </section> <!-- citing-web-pages -->
 
-<section id="sample-takehome-policies"><title>Sample Take-Home Examination Policies</title>
-
-<para>
-  <emphasis>These are my typical policies for take-home examinations.
-  They are included to give you a sense as to what I expect.</emphasis>
-</para>
-
-<para>
-  This examination is open book, open notes, open mind, open computer,
-  open Web. However, it is closed person. That means you should not talk to
-  other people about the exam. Other than as restricted by that limitation,
-  you should feel free to use all reasonable resources available to you.
-</para>
-
-<para>
-  As always, you are expected to turn in your own work. If you find ideas
-  in a book or on the Web, be sure to cite them appropriately. If you use
-  code that you wrote for a previous lab or homework, cite that lab or
-  homework and the other members of your group. If you use code that you
-  found on the course Web site, be sure to cite that code. You need not
-  cite the code provided in the body of the examination.
-</para>
-
-<para>
-  Although you may use the Web for this exam, you may not post your
-  answers to this examination on the Web. And, in case it's not clear,
-  you may not ask others (in person, via email, via IM, by posting a
-  <quote>please help</quote> message, or in any other way) to put answers
-  on the Web (or anywhere online or offline, for that matter).
-</para>
-
-<para>
-  Because different students may be taking the exam at different times,
-  you are not permitted to discuss the exam with anyone until after I have
-  returned it. If you must say something about the exam, you are allowed
-  to say <quote>This is among the hardest exams I have ever taken. If
-  you don't start it early, you will have no chance of finishing the
-  exam.</quote> You may also summarize these policies. You may not tell
-  other students which problems you've finished. You may not tell other
-  students how long you've spent on the exam.
-</para>
-
-<para>
-  You must include both of the following statements on the cover sheet of
-  the examination.
-</para>
-
-<orderedlist>
-  <listitem>
-    I have neither received nor given inappropriate assistance on this
-    examination.
-  </listitem>
-
-  <listitem>
-    I am not aware of any other students who have given or received
-    inappropriate assistance on this examination.
-  </listitem>
-</orderedlist>
-
-<para>
-  Please sign and date each statement. Note that the statements must be
-  true; if you are unable to sign either statement, please talk to me
-  at your earliest convenience. You need not reveal the particulars of
-  the dishonesty, simply that it happened. Note also that inappropriate
-  assistance is assistance from (or to) anyone other than Professor Rebelsky
-  (that's me).
-</para>
-
-</section> <!-- sample-takehome-policies -->
-
 <section id="typical-violations"><title>Illustrative Violations of Academic Honesty Policies</title>
 
 <para>
@@ -471,7 +409,20 @@ Visited 10 January 2014).
   violation to CAS, who then takes over the case.  At that point, the
   case is no longer under my control.
 </para>
-  
+
+<para>
+  In a few instances (perhaps violations of ethical or behavior standards,
+  rather than strict honesty issues), I may report the violation to the College 
+  Hearing Board (CHB), rather than to the Committee on Academic Standing.  I
+  follow similar procedures for CHB to those I follow for CAS.
+</para>
+
+<para>
+  If CAS and CHB do not consider the violation within their purview,
+  I will apply the principles and approaches stated within the
+  CS Department's <ulink url="http://www.cs.grinnell.edu/academic-honesty-policy">policy on academic honesty</ulink>.
+</para>
+
 </section> <!-- responding -->
 
 <section id="academic-cs"><title>Academic Honesty and Computer Science</title>
@@ -482,7 +433,8 @@ Visited 10 January 2014).
   as you've probably figured out by now, whenever I write about something,
   I tend to write a lot about it.  And, because I've been writing about
   academic honesty for more than two decades, this document has gotten longer
-  and longer.  BUt that's not the main reason.  There are two others.
+  and longer.  But that's not the main reason.  There are at least
+  three others.
 </para>
 
 <para>
@@ -499,7 +451,17 @@ Visited 10 January 2014).
 </para>
 
 <para>
-  Secondly, the Computer Science department identifies a disproportionate
+  Second, as my colleague John David Stone reminds me, computer scientists,
+  computer programmers, and software designers may all encounter significant
+  pressures to behave less than ethically.  When deadlines are tight 
+  and the rewards are great, there are temptations to <quote>cut 
+  corners</quote>.  We hope that by inculcating good habits now and
+  grounding them in sensible reasoning, we provide you with the habits
+  to behave appropriately, even when you encounter such pressures.
+</para>
+
+<para>
+  Third , the Computer Science department identifies a disproportionate
   number of cases of academic dishonesty.  I do not believe that this
   is because students in CS are less honest.  Rather, I expect that
   a combination of issues are at play.  For example, it may be easier
@@ -514,7 +476,9 @@ Visited 10 January 2014).
   to have to report such cases.  First, I care a lot about my students,
   and don't like to see them go through the stress of a hearing.  
   Second, it takes a lot of my time to properly document a case, time
-  I'd much rather spend doing work that will improve my courses.
+  I'd much rather spend doing work that will improve my courses.  Third,
+  as noted above and in the department policy, I want to help students
+  develop good habits and it bothers me when I fail.
 </para>
 
 <para>
