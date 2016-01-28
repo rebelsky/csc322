@@ -1,14 +1,84 @@
-+week
-<!ENTITY week{$week} "Getting Started">
-
 +day
 <!ENTITY title{$day} "An Introduction to the Course">
+<!ENTITY iteration{$day} "">
 <!ENTITY abbrev{$day} "course-intro">
+<!ENTITY due{$day} "Strengths Finder">
 
 +day
 <!ENTITY title{$day} "Introduction, continued">
+<!ENTITY iteration{$day} "">
 <!ENTITY abbrev{$day} "intro-continued">
+<!ENTITY due{$day} "Team Preferences (due Monday) + R&eacute;sum&eacute;">
 
 +day
-<!ENTITY title{$day} "Real Work">
-<!ENTITY abbrev{$day} "real-work">
+<!ENTITY title{$day} "Partner Meetings">
+<!ENTITY iteration{$day} "0.a">
+<!ENTITY abbrev{$day} "partners">
+<!ENTITY due{$day} "Plans for partner meetings - Arrangements, Questions, Demos, Etc.">
+
++day
+<!ENTITY title{$day} "Mentor Meetings (Tentative)">
+<!ENTITY iteration{$day} "0.b">
+<!ENTITY abbrev{$day} "mentors">
+<!ENTITY due{$day} "Initial user stories.  Drafts of V2MOM.">
+
++day
+<!ENTITY title{$day} "Code Walkthroughs">
+<!ENTITY iteration{$day} "0.c">
+<!ENTITY abbrev{$day} "walkthrough">
+<!ENTITY due{$day} "Code Reflection">
+
++day
+<!ENTITY title{$day} "Iteration 0: Wrapup">
+<!ENTITY iteration{$day} "0.d">
+<!ENTITY abbrev{$day} "wrapup-0">
+<!ENTITY due{$day} "TBD">
+
++day
+<!ENTITY title{$day} "Iteration 1: Workshop">
+<!ENTITY iteration{$day} "1.a">
+<!ENTITY abbrev{$day} "workshop-1">
+<!ENTITY due{$day} "Cucumber scenarios">
+
++day
+<!ENTITY title{$day} "Iteration 1: Demos">
+<!ENTITY iteration{$day} "1.b">
+<!ENTITY abbrev{$day} "demos-1">
+<!ENTITY due{$day} "Iteration 1 done.">
+
++day
+<!ENTITY title{$day} "Iteration 2: Workshop">
+<!ENTITY iteration{$day} "2.a">
+<!ENTITY abbrev{$day} "workshop-2">
+<!ENTITY due{$day} "Cucumber scenarios">
+
++day
+<!ENTITY title{$day} "Iteration 2: Demos">
+<!ENTITY iteration{$day} "2.b">
+<!ENTITY abbrev{$day} "demos-2">
+<!ENTITY due{$day} "Iteration 2 done.">
+
++day
+<!ENTITY title{$day} "Iteration 3: Workshop">
+<!ENTITY iteration{$day} "3.a">
+<!ENTITY abbrev{$day} "workshop-3">
+<!ENTITY due{$day} "Cucumber scenarios">
+
++day
+<!ENTITY title{$day} "Iteration 3: Demos">
+<!ENTITY iteration{$day} "3.b">
+<!ENTITY abbrev{$day} "demos-3">
+<!ENTITY due{$day} "Iteration 3 done.">
+
++day
+<!ENTITY title{$day} "Iteration 4: Workshop">
+<!ENTITY iteration{$day} "4.a">
+<!ENTITY abbrev{$day} "workshop-4">
+<!ENTITY due{$day} "Cucumber scenarios">
+
++day
+<!ENTITY title{$day} "Final Presentation and Course Retrospective">
+<!ENTITY iteration{$day} "4.b">
+<!ENTITY abbrev{$day} "wrapup">
+<!ENTITY due{$day} "Iteration 4 done.">
+
