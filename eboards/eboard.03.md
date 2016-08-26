@@ -1,5 +1,5 @@
-CSC322.01 2015F, Class 03: Partner Meetings
-===========================================
+CSC322.01 2016S, Class 03: Mentor Meetings
+==========================================
 
 _Overview_
 
@@ -8,161 +8,195 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
-    * Code critique.
-* User stories.
-* User stories exercise.
-* Plan for client meetings / Small-group r&eacute;sum&eacute; reviews.
-* Client meetings / Large-group r&eacute;sum&eacute; reviews.
-* Debrief on client meetings.
+* Introductions of the Students.
+* Introductions of the Mentors.
+* Q and A with the Mentors.
+* Things to talk about with the Mentors.
+* Work time with the Mentors.
 
 Preliminaries
 -------------
 
 ### Admin
 
-* Picnic!
-* Alumni visits confirmed for the 17th.  Plan on lunch and dinner with alums,
-  if at all possible!
-* Can today's two teams transport themselves, or should I attempt to
-  acquire an auto?
-* Work for next week: 
-    * Everyone - Overviews of existing codebase - questions, ideas, notes, etc.
-        * Resource bank can look at the food pantry code.
-    * User stories.
-    * Whatever you think will be useful to get ready for your first meeting
-      with the mentors.
+* Reminder: Mentors here all class period.  Talk (optional).  Dinner (expected).
+* Work for next week: Plan for your first two-week sprint.  Tasks and the 
+  anticipated points each task.  (Also include some of the tasks that you
+  de-prioritized.)
+* Plan weekly status reports to all four mentors and Sam.  (Sent by
+  8pm Wednesday evening.)
+    * What did you accomplish?
+    * What do you hope to accomplish?
+    * What obstacles stand in your way?
+    * What resources will help you accomplish your task?
 
-### Questions
-
-User stories
-------------
-
-* What are they?
-    * An account of what a user wants to do with the system.
-      "As a BLANK I want to BLANK so that I can BLANKETY BLANK.
-    * As a mother of three I want to search for cheap groceries
-      so that I can feed my family.
-    * The language you use is important!
-    * As a grant reviewer I want to be able to review multiple
-      applications for multiple grants efficiently so that I can
-      help select a grant recipient.
-    * As a parent, I want reminders of expected appointments so that
-      I can make those appointments and maintain eligibility.
-    * As a potential board member, I want to be able to describe my skills
-      so that organizations can identify my skills.
-    * As a potential board member, I want to be able to submit my resume,
-      so that I don't have to retype things in describing my skills.
-* How do we build them?
-    * Talk to our clients.  (And *listen to* our clients.)  (Sometimes
-      simulate our clients.)
-    * Synthesize into something more concise.
-    * Make sure that they are the right size.  Often break into smaller 
-      stories.
-    * Discuss with client to make sure that they represent what the
-      client wants.
-* How do we use them?
-    * Prioritize work.
-    * Sometimes break into tasks.
-    * Think more closely about audience.
-    * Track your project - Let's you see how much work you've accomplished
-      (or that you've accomplished work).
-    * Estimate your work.
-
-User stories exercise
+Student Introductions
 ---------------------
 
-_You are building the Grinnell online teaching system (GOTS) for the Ruby
-programming language_
+* Name, year, major
+* Favorite Pokemon
+* How familiar are you with the technologies we're using this semester?
+* Where are you from?
+* What is a passion in your life?
 
-* Whole group question: Who are your audiences?
-    * Grinnell students - use the system
-    * Professors/A - Keep track of student learning
-    * Professors/B - Content providers
-    * Any students, anywhere, anytime
-    * CS novices
-    * CS students
-    * Trustees / Administrators (are these just stakeholders)
-    * Professional Software Engineers
-    * Alums
-* We will break into individual groups to conduct user interviews.  NBB
-  and I will simulate certain kinds of users.  Others of you will have to
-  simulate others.
-* We will come back together with the stories we have gathered.
-* Strive for relatively small/narrow stories.  Not "As a student, I want to
-  learn." or "As a College official, I want to publicize the College so that
-  I can recruit more full-pay students." (Well, maybe the latter.)
-* Some stories:
-    * "As a teacher, I want to be able to send email to my students who
-       have fallen behind, encouraging them to keep trying and catch up."
-    * "As a first-year football player, I want to explore whether or not
-       I am interested in CS."
-* Some concerns
-    * Moving forward into "I see us *doing this*" rather than listening
-      carefully to the stories and asking them to say more.
+Alumni Introductions
+--------------------
 
-Plan for client meetings / Small-group r&eacute;sum&eacute; reviews
--------------------------------------------------------------------
+IGY
 
-Reread the r&ecaute;ume&eacute;s of the folks in your group, keeping
-the following questions in mind.
+From MN.  Lives in SDCA.  Was a Plans admin.  That got him a job.  Has
+done Web Dev at three companies.  Now does freelance work.  Mostly Ruby
+on Rails.
 
-* What story does the r&ecaute;ume&eacute; tell?  (If you had to summarize
-  the person in two sentences based on this r&ecaute;ume&eacute;, what
-  would you say?
-* What is something in this r&ecaute;ume&eacute; that you might adapt for
-  your own r&ecaute;ume&eacute;?
-* What makes this r&ecaute;ume&eacute; stand out from the others you read?
-* What are two things you would improve in this r&ecaute;ume&eacute;?
+Likes to run (triathalons), rock climbing, code for fun.  Mostly spends his
+time outside.
 
-Client meeting prep
+CK
+
+From IA.  Lived in Des Moines for too long.  Now in Seattle.  Did Web Dev
+out of college.  Founded printwhatyoulike.com with another alum.  Traveled.  
+Works for consulting company.  No longer does Rails, but hosts Seatle.rb.
+Also grinnellgallery.com.
+
+Likes to run (triathalons), climb mountains, take photos.
+
+WB
+
+From IA.  TC manager.  Did tech support for a few years.  Chain of startups.
+Spent 2.5 years or so at the previous job, now at present job for four years.
+Works at Heroku/Salesforce.  Lives in IA City.
+
+Likes to make furniture, design board games, support open source, run
+cool tech festivals in IA City, bouldering, API design.
+
+Questions for Alums
 -------------------
 
-* What are important questions that you have for your client?
-* Some starting ones:
-    * "What do you see as the primary mission of your organization?"
-    * "We are new" (or "this is a new project"); "Can you describe the
-      goals of the project from your perspective?"
-    * "What things do you think it is most important for the project 
-      to do?"
-    * ...
+Challenges in moving from class-size projects to real-world software
+development?
 
-Client meetings
----------------
+> A lot of things go on around of writing the actual code.  Learning to
+  work functionally with a bunch of other people.  Work with a large code
+  base that others have been working on already and that new people will be
+  working on in the future.
 
-_Some students will head off to work with their clients._
+> Many things are no longer under your control.  Someone else will make many
+  of your decisions for you, and some of them will be wrong.
 
-R&ecaute;ume&eacute; reviews, continued
----------------------------------------
+> The big challenge isn't necessarily getting it to work, but keeping it
+  working (e.g., scaling, dealing with things that have to change but people
+  rely upon).  When hundreds, thousands, or hundreds of thousands of people
+  are working on something, it's hard to change something.
+  
+> Security (a completely different mindset).
 
-_The remaining students will look at global issues in their
-r&ecaute;ume&eacute;s._
+> A very different mindset doing something multiple times per second than
+  doing it once or twice.
 
-* Superhero names with alliteration are good; change your name.
-    * Don't take career advice from Peter Parker or Matt Murdock or
-      Bruce Banner or Bonald Blake
-* Be consistent in your formatting - Don't make your resume look sloppy.
-    * May be particularly important for computer science students -
-      sloppy resumes can imply sloppy code.
-* Find ways to condense repeated employers
-    * E.g., one heading for the employer and subheaders underneath
-* Use formatting tricks to highlight important information
-    * E.g., boldface the languages that you know; make your
-      position more readable than your employer (although for some
-      employers, it could be good to have their name.
-      `software developer at AMAZON CLOUD SERVICES!!!`
-* Condense to one page ...?
+> You don't always get the option to start over.  You have something and
+  that's the way it is.  "Make it function well enough."
 
-Debrief: Working with Clients
------------------------------
+> Realizing that you should a dev version and a release version and they
+  are separate (and you use tools to transition between the two), but
+  similar as possible.  (And perhaps a QA version.)
 
-_Conducted by CLS. - Service, Social Justice, Sivic Engagement, and Stuff_
+What is it like to have to work in an organization?
 
-* Know when your clients are too enthusiastic about going along with
-  you.  You have a responsibility to make sure that you push to hear
-  their requirements.
-* Be sure to know how people want to communicate with you - in our cases,
-  everyone seems to be comfortable with email.
-* Setting up regular times for email or whatever is useful.
-* Some of our clients are very busy and very understaffed.
-* Lots of things are done by word of mouth in our community.
+> There's a reason that IY is an independent contractor.
 
+> It depends on the type of organization.  When you first come out of school,
+  you don't have a lot of capital.  But after that, you can consider what
+  the best social "fit" is for you.
+
+> As you go through more and more jobs, you realize what works for you and
+  what doesn't work for you.
+
+> In our industry, transitions are the norm and not bad things on your 
+  resume.
+
+What are your favorite tools?
+
+> Chat rooms.  (Lots of options.)  Feel connected, without feeling
+  synchronous.  (Come back when you have time.)  Slack, IRC, and the ilk.
+
+> Skype and video chat.  You will often be dealing with a bunch of
+  remote workers, and you do have to have meetings.
+
+> Trello and Pivotal tracker to keep track of projects.  (Or some tool
+  to organize what needs to be done.)
+
+> Github, with pull requests to communicate on changes.  Once you know
+  what you're doing, it's easy to set up a Git repo.
+
+> vim
+
+> Google docs - Helpful for collaborating on written word, particularly
+  adding comments and such.  A pairing environment for non-code.
+
+What are your favorite gems?
+
+> Sinatra.  A pared down version of rails - some templating, router,
+  not much else.  (But Rails is nice because everything is packaged
+  together and "it just works".) (For more advanced users, Rails has
+  a lot of cruft that they don't need.)
+
+> Pliny.  API development on top of Sinatra.
+
+> ActiveAdmin, which most of the teams are using.  Makes it really easy
+  to set up administrative stuff.
+
+> Quiet_Asset, which removes some cruft from your Rails log.
+
+> FactoryGirl, useful for testing - makes it much easier to set up
+  particular properties of objects.
+
+> RSpec, or perhaps some other testing framework.
+
+> Capybara, if you're doing integration testing.
+
+> Pry, useful for debugging.  Opens a console at particular locations
+  in your code, plus a better Rails console (which may now be part of
+  Rails).
+
+> Learn to use the Rails console.
+
+How do you keep track of all of this?
+
+> User groups.
+
+> Weekly reports (Ruby weekly, HTML 5 weekly, ...)
+
+> Talk to people.
+
+How long will it take you to get up to speed?
+
+> More than a year, but probably less than a year.  Three months of
+  full time - get it to do what you want it to do, but within a particular
+  realm.
+
+What do you need to know?
+
+> Rails
+
+> Ruby
+
+> HTML and CSS
+
+> Database / SQL
+
+> Heroku
+
+> Javascript
+
+> You won't learn all of them, but you will have seen and experienced
+  all of them.
+
+Meetings
+--------
+
+* How to be in touch, how to stay in touch, how often to Skype/videochat
+* What should we do if we don't feel you are responding promptly?  (And
+  what is "promptly" in your world?)
+* What do you want to hear from us?
+* How have you best served as a resource for your prior teams
+* Look at code and workflow together.

@@ -5,22 +5,16 @@
 <!ENTITY due{$day} "Strengths Finder">
 
 +day
-<!ENTITY title{$day} "Introduction, continued">
-<!ENTITY iteration{$day} "">
-<!ENTITY abbrev{$day} "intro-continued">
-<!ENTITY due{$day} "Team Preferences (due Monday) + R&eacute;sum&eacute;">
-
-+day
 <!ENTITY title{$day} "Partner Meetings">
 <!ENTITY iteration{$day} "0.a">
 <!ENTITY abbrev{$day} "partners">
 <!ENTITY due{$day} "Plans for partner meetings - Arrangements, Questions, Demos, Etc.">
 
 +day
-<!ENTITY title{$day} "Mentor Meetings (Tentative)">
+<!ENTITY title{$day} "Mentor Meetings">
 <!ENTITY iteration{$day} "0.b">
 <!ENTITY abbrev{$day} "mentors">
-<!ENTITY due{$day} "Initial user stories.  Drafts of V2MOM.">
+<!ENTITY due{$day} "Initial user stories.">
 
 +day
 <!ENTITY title{$day} "Code Walkthroughs">
@@ -77,8 +71,14 @@
 <!ENTITY due{$day} "Cucumber scenarios">
 
 +day
-<!ENTITY title{$day} "Final Presentation and Course Retrospective">
+<!ENTITY title{$day} "Iteration 4: Demos">
 <!ENTITY iteration{$day} "4.b">
-<!ENTITY abbrev{$day} "wrapup">
+<!ENTITY abbrev{$day} "demos-4">
 <!ENTITY due{$day} "Iteration 4 done.">
+
++day
+<!ENTITY title{$day} "Final Presentation and Course Retrospective">
+<!ENTITY iteration{$day} "">
+<!ENTITY abbrev{$day} "wrapup">
+<!ENTITY due{$day} "Portfolios">
 

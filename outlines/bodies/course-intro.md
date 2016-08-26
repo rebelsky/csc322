@@ -7,11 +7,6 @@ Quick Course Overview
 * Meeting a non-mission-critical need.
 * With guidance from an alumni mentor.
 
-Why This Course?
-----------------
-
-*Please answer one of the following two questions.*
-
 Introductions
 -------------
 
@@ -49,6 +44,11 @@ More Important Issues
 * Time management
 * ...
 
+Strengths Finder
+----------------
+
+* Fortunately, somone else runs this section.
+
 More Syllabus Stuff
 -------------------
 
@@ -56,10 +56,31 @@ More Syllabus Stuff
 * Expected workload.
 * Grading.
 
-Strengths Finder
-----------------
+Team Building
+-------------
 
-* Fortunately, somone else runs this section.
+* Introduce yourself quickly to your team members.
+* Read each other's R&ecaute;ume&eacute;'s.  Discuss what they tell
+  you about the other members of your team.
+* Fill in the team StrengthsQuest form.  (Those who did not participate
+  in StrengthsQuest will have to guess their strengths.)
+
+R&ecaute;ume&eacute; reviews 
+----------------------------
+
+Reread the r&ecaute;ume&eacute;s of the folks in your group, keeping
+the following questions in mind.
+
+* What story does the r&ecaute;ume&eacute; tell?  (If you had to summarize
+  the person in two sentences based on this r&ecaute;ume&eacute;, what
+  would you say?
+* What is something in this r&ecaute;ume&eacute; that you might adapt for
+  your own r&ecaute;ume&eacute;?
+* What makes this r&ecaute;ume&eacute; stand out from the others you read?
+* What are two things you would improve in this r&ecaute;ume&eacute;?
+
+I will wander through groups.  I will also provide my own critiques in
+next week's class.
 
 Wrapup
 ------

@@ -1,106 +1,200 @@
-CSC322.01 2015F, Class 07: Iteration 1: Workshop
-================================================
+CSC322.01 2016S, Class 07: Iteration 1: Demos
+=============================================
 
 _Overview_
 
 * Preliminaries.
     * Admin.
     * Upcoming Work.
+    * Extra Credit.
     * Questions.
-* Cucumber Scenarios.
-* Work Time.
+* Presentation format.
+* Preparation time.
+* Presentations.
+* Work time.
 
 Preliminaries
 -------------
 
 ### Admin
 
-* Remember: You should be spending three-four hours each week outside of
-  class on your project.
-* Remember: You should be sending weekly reports to me and to the four
-  mentors *before* each week's class.  (I think we'd all prefer them on
-  Wednesday night.)
-* Note: If you are bringing a client to campus, it's good to notify the
-  other group that is working with that client.  (It may also be useful
-  to do the same for off-campus clients.)
-* What do you have scheduled today in terms of visits with mentors or
-  clients?
-    * Skype with mentor at 3:15
-* Your first set of Cucumber scenarios (or user stories) are due today,
-  as are your selection of those scenarios for working on in this sprint.  
-  Do you want the first hour of class to complete that? Yes!
-
-### Upcoming Work
-
-* Next week: Reports/Demos to your peers.
-    * What scenarios did you complete?  (If you didn't, why not?)
-    * What are some interesting coding issues you encountered along 
-      the way?
-* Next week (and every week): Weekly report 
-* I may also provide you with a more detailed project report to fill out.  
-
-### PSA
-
-* It's 10/10 weekend.  Please take care of yourself and those around you.
-  Please know your limits.
-* A paraphrased message from our Chaplain.
-
-### Peer Events
-
-* Blake presents today at 4:15 p.m.
-* Ezra plays Saturday at 2:30 p.m. 
-* Nora plays Saturday at noon.
-* The Boy Who Fell From the Roof, Tonight at 7pm, Friday at 7pm, 
-  Saturday at 7pm, Sunday at 2:30 pm
-* Michael and Yazan's band 12:01 10/11 in Loose
+* Don't forget to submit weekly electornic reports on Wednesday nights.
+* We will be working on bi-weekly in-class reports.  (Details in the 
+  outline/eboard.)
+* When are your scheduled meetings?
+    * Resource Portal 2:30, Sam and Ian
+    * Resource Portal, email contact with tech folks
+    * Board Bank: Meeting with Cassie at 2:30
+    * Grant Application Team: Meeting with Nicole some time in the future;
+      reaching out to contractor.  Need to Skype with Alex before break.
 
 ### Questions
 
-Notes on Velocity
------------------
+* Final presentations week 14; you are free for the finals week slot.
 
-* One of the goals of this process is that you develop skills for estimating
-  how much work your group can achieve in a given time period and also how
-  much time a project will take.
-* You assign a difficulty to each story.  (Fox and Patterson recommend a
-  1-3 scale; Davis allowed students to choose their own scale.)
-* Each iteration/sprint, you see how much you accomplished by summing
-  the values of the completed stories.
-* This sum is your *velocity*.
-* We don't compare teams by velocity; each team gets to choose its own
-  scale.
-* But we hope that your velocity is consistent from week to week.
-* As you get better at estimating, you'll find that your velocity
-  stays relatively consistent.
-    * What was a 3 story at the beginning of the semester may be a 
-      1 story at the end of the semester
-* Given a new project with a list of stories, you should be able to give
-  a moderately good estimate of the total time required by estimating the
-  difficulty of each story and dividing by the velocity.
+Presentation Format
+-------------------
 
-Cucumber Features
------------------
+These presentations will be every-other week, so that you have more work
+time in the alternate weeks.
 
-### Grants
+* _Intended Goals_.  Remind us of your goals for the time period and
+  the points you associated with those goals.
+* _Overview of Accomplishments_.  Which of those goals did you accomplish?
+  What other (unexpected) things did you deal with along the way?
+* _Demo_.  Show off the current state of your system, focusing on the
+  parts you were working on.
+* _Code Walkthrough_.  Show us an interesting part of your code from the
+  past two weeks and explain it to us.  
+* _New Goals_.  What do you intend to accomplish over the next 
+  two-week iteration? What points have you assigned to each task?
+  How are you dividing the work?
 
-### Notifications
+Please strive for organized and coherent presentations.
 
-        As an administrator
-        I want to be able to set the texting service the Gem uses
-        So that I can change who pays for it
+Time To Prepare Presentations
+-----------------------------
 
-        Scenario: Make SamR's account the working account
+You will have twenty minutes to work on your presentations.
 
-          When I go to the configure page
-          And I click on "Text Service"
-          And I enter rebelsky@grinnell.edu
-          And I send a text
-          Then it is billed to rebelsky@grinnell.edu
+Presentations
+-------------
 
-### Board Bank
+You will have approximately fifteen minutes for each presentation.
 
-### Resource Guide
+Order:
+
+* Grant App
+* Board Bank
+* Resource Portal
+* Head Start
+
+Board Bank
+----------
+
+Yay!  New UI!
+
+### Intended Goals
+
+* UI Update
+* Get Bootstrap working
+* DRY out HTML department
+* Implement pop-ups when you've submitted a form
+* Basic functionality, but still facing some problems.
+* Making Travis work - Travis runs all of the tests for you.
+
+### Accomplishments
+
+* UI updated.
+* DRYed out HTML.
+* Did not add the pop-ups.
+* Fixed database migration issue.
+* Can't deploy to Heroku.
+* Got it working on C9 rather than local machine.
+
+### Demo
+
+* Look!  Pretty icons next to city, email, and such.
+* Using SearchKick and ElasticSearch for searching.
+* SearchKick will run through your rails-created database.
+
+### New Goals
+
+* Routing issue [2].
+* Lots of security issues - you can get anyone's user profile [6].
+* Understand how the database interact [4].
+* Deploy to Heroku [2].
+* User cannot update profile [4].
+* Travis [2].
+
+### Code Walkthrough (if time)
+
+* No time.
+
+Grant Application Management
+----------------------------
+
+### Intended Goals
+
+* See Trello board
+
+### Accomplishments
+
+* See Trello board
+* Velocity 27
+
+### Demo
+
+### New Goals
+
+* See Trello
+* Agh!  Too much!
+
+### Questions
+
+Are you doing formal pull requests with code reviews?
+
+* No, but we probably should do code reviews.
+
+What did you say about emails and devise?
+
+* Users should get email when they sign up.  devise is supposed to help
+  with that.
+* Blake says that they used a gem called invitable.
+* Email on c9 isn't allowed.
+
+Sam says you are well off working on the same thing.
+
+### Code Walkthrough (if time)
+
+* No tim.
+
+Resource Portal
+---------------
+
+### Intended Goals
+
+* Lots of green.  Yay!
+* Can't test lots of things until they go live.  Finally got some things
+  to work last night (e.g., search).
+
+### Accomplishments
+
+* Velocity 35
+
+### Demo
+
+* Prettier admin screen.
+* Fake invites (that they hope will work)
+
+### New Goals
+
+* Merge.  [5]
+* Calendar. [5+]
+
+### Questions
+
+Code review?
+
+* We haven't been doing it using pull requests.
+* We do talk together before pushing to the main branch.
+
+Note: Impossible to get full group together except in class.
+
+### Code Walkthrough (if time)
+
+Head Start
+----------
+
+### Intended Goals
+
+### Accomplishments
+
+### Demo
+
+### New Goals
+
+### Code Walkthrough (if time)
 
 Work Time
 ---------
-

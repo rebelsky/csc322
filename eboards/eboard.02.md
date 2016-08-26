@@ -1,5 +1,5 @@
-CSC322.01 2015F, Class 02: Introduction, continued
-==================================================
+CSC322.01 2016S, Class 02: Partner Meetings
+===========================================
 
 _Overview_
 
@@ -8,133 +8,168 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
-* Team formation.
-* Working with clients.
-* R&ecaute;ume&eacute; reviews + Client meeting prep.
-* Client meetings and work time.
+* Debrief on client meetings.
+* User stories.
+* User stories exercise.
+* Plan for client meetings.
+* Client meetings.
 
 Preliminaries
 -------------
 
 ### Admin
 
-* Apologies for late notification about r&eacute;sum&eacute;s.
-    * My strengths are clearly last-minute improv, and not careful
-      pre-planning.
-* Project teams formed.
-* Alumni visits confirmed for the 17th.  Plan on lunch and dinner with alums,
-  if at all possible!
-* Work for next week: 
-    * Everyone - Overviews of existing codebase - questions, ideas, notes, etc.
-        * Resource bank can look at the food pantry code.
-    * Board Bank and Grants - Plans for meeting with Ahrens.
-* I need someone to work on the simple maintenance of MIST - making sure
-  to reboot if it's crashed, gathering usage data, posting things to 
-  Facebook, maybe fixing bugs when they appear, whatever.  1-2 hpw max.
-  Any interest?  (If so, let me know and apply through PioneerLink.)
+* Don't forget to send me your resume if you have not done so already.
+* Today will include time for you to meet with your team and discuss
+  things, while AOA and I help.
+* You will also meet with community partners.  I'd like the Resource Portal
+  team to be responsible for transporting the Notification Team.  I will
+  transport the other two teams.
+* Alumni mentors will be here next week.  Plan to be with them noon to 5:30
+  p.m.
+* Does every team have a person who knows about user stories?  Yes.
+
+### Upcoming Work
+
+* Assign roles.
+* Send email to your mentor introducing yourself.
+* Review the codebase - Albert will provide.
+
+### Good Things to Do
+
+#### Academic
+
+* CS Extras *Thursdays*!  Today's topic: \LaTeX.  Next week: Alums.
+* CS Table *Tuesdays*!  Upcoming topic: Copyright.
+* Cool talk Monday at 4:15 on Working in Public.
+* Important talk Monday on "The Complex Relation Between Alcohol and
+  Sexual Assault."  7:30 in JRC 101.
+
+####  Peer
+
+* Track and Indoor Field 10 a.m. Saturday
+* BBall a week from Saturday.
+* Saturday, 2000 Harris
+* Move off campus and vote for the Reverend
 
 ### Questions
 
-Team formation
---------------
+Debrief on client meetings
+--------------------------
 
-* Quick intro.
-* Read each other's resumes.
-* Discuss: What have you learned about each other from the resumes?
-* Fill in strengths chart and discuss.
-* Identify
-    * Product owner: Liason with the client
-    * ScrumMaster: (Project manager)
-    * Other roles you consider appropriate
+* We are going to have fun.
+* We need introductions so that our visitor, Susan Sanning, can know about 
+  people.
+* "Portal" + "Pool" = "Resource Puddle"
+* If Chaplain Sanning picks on you, she will give you absolution with
+  chocolate or jelly bellies.
+    * But you have to make a pilgrimage to CLS.
+* We are going to talk about professionalism.
+    * Don't behave like Sam.
+    * It's not about how you dress, it's how you behave.
+* What are the stereotypes of how Grinnell students are?
+    * Intellectuals
+    * No street smarts
+    * Arrogant
+    * Stoners
+    * Liberals
+    * "There's a reason that Dr. Rebelsky used to hand out bars of soap
+      in her office."
+    * Grinnellians wear t-shirts and pajama bottoms
+    * Even worse time management skills than SamR - show up late;
+      don't realize that other people have schedules
+    * On the other hand, they communicate wonderfully
+    * Militant in beliefs
+    * Communicate - mostly via email, rather than 
+* How do you think about local people?
+    * How do they dress?  Button down or polo.
+    * Time management.  "Rural, slow, laid back."
+    * Eye contact: Yes. Nerve racking to some.  Avoided with others.
+    * "Very white"
+    * Friendly to your face
+    * Communicate - Talking (f2f, phone, Herald Register); Facebook
+    * Who has high-speed Internet service?  Only people in town.  
+      Outside of town (five minute drive), no real Internet service.
+* "Professionalism is all about knowing about the person."
+* What should I wear to Ahrens Foundation/Greater Poweshiek Community
+  Foundation (GPCF) and Mid-Iowa Community Action (MICA)
+* GPCF
+    * Founded by Claude Ahrens to grant money for community good
+    * Now does back-office support for non-profits in town
+* How do you form a board of directors?
+    * ....
+    * GPCF helps
+    * You might need lawyer, financial person, etc.
+    * Contact is Nicole Brua-Behrens
+* MICA - Mid-Iowa Community Action
+    * Center point for helping people in the community
+    * Both direct help and referral
+    * A clearing house for resources to help people in poverty
+    * The Resource Puddle is digitizing this
+    * Primarily serves five counties: Hardin, Marshall, Poweshiek, Story, 
+      and Tama
+    * Contacts Danielle Wonderly (director) / Lindsey Fujimoto (intern;
+      start here) / Jamie Adkins (tech liason)
+* Why the Resource Puddle/Portal is important
+    * Counselors may assumptions about what you as an individual need; by
+      giving people direct access you empower them to figure out their own
+      kinds of support.
+* Head Start
+    * Works through MICA
+* What would Professional Dress be for GPCF?  Khakis and button-down shirt.
+  Be aware of what your dress says in the context you are in.  Put forth
+  a professional image.
+* Smell is important.
+* Be aware.
+* Don't be self conscious, be self aware.  And point them out to each other.
+* Self Gov says that you have to tell your fellow students about their
+  annoying habits so that they don't screw up in interviews.
+* Firm handshakes, no limp stuff.
+* Know peoples' names.
+* Assume that you should address people by last name (with Mr. and Ms.).
+* Susan knows our community partners well; so she can help
 
-Working with clients
---------------------
+Good questions for your clients
 
-* Understand the context of the community partner
-* Don't assume that you know everything
-* Meet with the community partner regularly
-* First meeting: Have them outline the project in their own words and find
-  out their goals.  (It's okay to do this for continuing projects, too.)
-    * Understand the client's overall mission.
-    * How does it relate to your mission?  Why is it important?
-    * What do you want it to do?
-    * What do you see as the greatest priority.
-* Try to get some user stories - situational examples, personalized,
-  of things that you want to do in the system
-    * One reviewer needs to be able to review more than one project.
-      As a reviewer, I need to be able to review not just multiple 
-      applications, but applications for multiple grants, so that
-      I can accomplish my task efficiently.
-    * General format: As _____, I need to _____, so that I can _____.
-* Reminder: Bring something for taking notes.  (If you use a computer
-  to take notes, ask permission.)
-* More from the first meeting:
-    * Make sure to describe yourselves, perhaps explain why you are
-      excited about the project.
-* Need a way to prioritize tasks, using the client's input effectively.
-* It's okay to ask for clarification later.
-* Don't expect to know how to solve the problem immediately.
-* Typical followup meeting
-    * Describe progress (and problems/sticking points) - what's going on
-    * Help set expectations
-    * Provide list of possible next steps and get prioritization
-    * Possibly demo
-* These meetings should generally happen at the client's site of business.
-* These people need ADVANCE ARRANGEMENT of meetings
-* Both of our partners are happy to communicate via email.
-* Use ONE POINT OF CONTACT.
-* These are not technical people.  Avoid technical terms.
-* SKETCHES can be helpful.
-* Decomposing big projects into small pieces can be complicated, and
-  communicating the decomposition is one of your challenges.
+* How should we contact you?  (Phone, email, ....)
+* How much advance notice do you want for meetings?
+* If I send you a question, when do I need a response?
 
-Client meeting prep time
+Transportation and More
+
+* You get priority, particularly for site visits
+* You may need to meet with Jamie in Marshalltown
+* You may need to go to the Head Start buildings
+* We would prefer that you use college vehicles
+* sannings@grinnell.edu
+
+More things with Susan
+
+* You can use Susan as a resource.  She's overbooked, but she prioritizes
+  students.
+* You (can) make a huge difference in this community.
+
+Plan for client meetings
 ------------------------
 
-*No notes.*
+Sam will meet the board bank out front (8th) at 2:50 and the grant board team
+out front a little after 3pm.  The resource puddle will transport the other
+two groups.
 
-R&ecaute;ume&eacute; reviews
-----------------------------
+* "What do you see as the primary mission of your organization?"
+* "We are new" (or "this is a new project"); "Can you describe the
+  goals of the project from your perspective?"
+* "What things do you think it is most important for the project 
+  to do?"
+* "What are things that went well or less well with the previous group
+  of students?"
+* "We are basing our project on particular assumptions.  What assumptions 
+  have been made that seem a bit inaccurate?"
 
-*Disclaimer 1: While I review CVs for certain jobs, I do not typically
-hire for the kinds of positions you may be seeking.*
+For Head Start and Resource Group
 
-*Disclaimer 2: Your resume is usually only part of your job search.
-Contacts and cover letters can make a huge difference.*
+* "What do you see as the language potential issues for our project?"
 
-*Disclaimer 3: Resumes go through multiple audiences.*
+For Head Start
 
-What story (or stories) does your resume tell?
-
-* Observation: You want to tell different stories for different
-  jobs.  You should have multiple resumes.
-* Observation: Most CS majors want to tell the story that they
-  are technically competent.  
-    * What in the resume supports that?
-    * What in the resume undermines that?
-
-What are things in your colleagues' resumes that you'd reuse?
-
-* Give the name of the MAP as part of the description.
-* Prioritize appropriately.
-* Use typography to better highlight things.
-* Communicate technical details clearly.
-* Communicate soft skills, too.  You can sneak them in "Worked with team
-  to ...", "Working with client, developed ..."
-* Communicating the programming languages you know.
-* Break up technical skills into separate categories.
-* Extend the margins [x2]
-
-What are things in your colleagues' resumes that you think they should change.
-
-* Use "teaching assistant" or "peer educator" rather than mentor
-
-Questions and Thoughts
-
-* Remember that you can't please everyone
-* One page vs. multiple pages
-* New information at the top or bottom?
-
-Client meetings and work time
------------------------------
-
+* "When would be a good time to meet with the (other) Head Start people?"

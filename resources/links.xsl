@@ -38,7 +38,8 @@
 <p class="links"><b>Related Courses:</b>
   [<a href="http://www.cs.grinnell.edu/~davisjan/csc/322/2014F/">Davis (2014F)</a>]
   [<a href="http://www.cs.grinnell.edu/~davisjan/csc/322/2015S/">Davis (2015S)</a>]
-  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CSC321/2015F">Rebelsky 322 (2015F)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CSC321/2015F">Rebelsky 321 (2016S)</a>]
+  [<a href="http://www.cs.grinnell.edu/~rebelsky/Courses/CSC322/2015F">Rebelsky 322 (2015F)</a>]
 </p>
 <p class="links"> <b>Misc:</b> 
   [<a href="http://www.cs.grinnell.edu/~rebelsky/">SamR</a>]

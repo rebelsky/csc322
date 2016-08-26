@@ -1,8 +1,9 @@
-* Quick Course Overview
-* Why This Course?
-* Introductions
-* The Projects
-* More Important Issues
-* More Syllabus Stuff
+* Quick Course Overview.
+* Why This Course?.
+* Introductions.
+* The Projects.
 * Strengths Finder
-* Wrapup
+* Team building.
+* R&ecaute;ume&eacute; reviews.
+* More Syllabus Stuff.
+* Wrapup.

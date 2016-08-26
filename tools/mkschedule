@@ -5,11 +5,19 @@
 #     mtwf-fall: A Monday, Tuesday, Wednesday, and Friday fall lab class.
 #     mtwf-fall-writeups: A Monday, Tuesday, Wednesday, and Friday fall 
 #       lab class with writeups.
+#     mtwf-fall-writeups-review: A Monday, Tuesday, Wednesday, and Friday fall 
+#       lab class with writeups and review sessions.
 #     lfa-fall: Learning from Alumni in the Fall (one day per week)
 #     mtwf-spring: A Monday, Tuesday, Wednesday, and Friday spring lab class.
 #     mtwf-spring-mlk, A MWTF spring lab class, with no MLK day
+#     th-fall: Meets Thursday in the fall
+#     322-fall: Meets Thursday in the fall, using the 322 model
 #     th-spring: Meets Thursday in the spring
 #     mwf-spring: A MWF spring class (no labs)
+#     mwf-spring-half1: A MWF spring class for the first half
+#       of the semester
+#     mwf-spring-half1: A MWF spring class for the second half
+#       of the semester
 #     mwf-spring-notes: A MWF spring class (no labs, note takers)
 
 # +-----------+-------------------------------------------------------
@@ -42,7 +50,13 @@ my $INCLUDE_WRITEUPS = 0;
 if ($type =~ s/-writeups//) {  
   $INCLUDE_WRITEUPS = 1;
 }
-  
+
+# Do we include review sessions?  (Needs improvement.)
+my $INCLUDE_REVIEW_SESSIONS = 0;
+if ($type =~ s/-review//) {
+  $INCLUDE_REVIEW_SESSIONS = 1;
+}
+
 # Deal with the different kinds of classes
 if ($type eq "mtwf-fall") {
   top();
@@ -104,6 +118,18 @@ elsif ($type eq "mtwf-spring-alt") {
   print "</tbody>\n";
   bottom();
 } # mtwf-spring-alt
+elsif ($type eq "th-fall") {
+  top();
+  print "<thead>\n";
+  headings();
+  print "</thead>\n";
+  print "<tbody>\n";
+  days(8);
+  break("Fall Break", 6);
+  days(6);
+  print "</tbody>\n";
+  bottom();
+} # th-spring
 elsif ($type eq "th-spring") {
   top();
   print "<thead>\n";
@@ -123,6 +149,18 @@ elsif ($type eq "mwf-spring") {
   mwfWeeks(6);
   mwfBottom();
 } # mwf-spring
+elsif ($type eq "mwf-spring-half1") {
+  mwfTop();
+  mwfWeeks(7);
+  mwfBottom();
+} # mwf-spring-half1
+elsif ($type eq "mwf-spring-half2") {
+  mwfTop();
+  mwfWeeks(1);
+  break("Spring Break", 3);
+  mwfWeeks(6);
+  mwfBottom();
+} # mwf-spring-half2
 elsif ($type eq "lfa-fall") {
   lfaTop();
   lfaDay(); lfaDay(); lfaDay(); lfaDay();
@@ -132,6 +170,19 @@ elsif ($type eq "lfa-fall") {
   lfaBreak("Thanksgiving Break"); 
   lfaDay();
   lfaDay();
+  bottom();
+} 
+elsif ($type eq "322-fall") {
+  csc322Top();
+  print "<tbody>\n";
+  csc322Day(); csc322Day(); csc322Day(); csc322Day();
+  csc322Day(); csc322Day(); csc322Day(); csc322Day();
+  break("Fall Break", 5); 
+  csc322Day(); csc322Day(); csc322Day(); csc322Day();
+  break("Thanksgiving Break"); 
+  csc322Day();
+  csc322Day();
+  print "</tbody>\n";
   bottom();
 } 
 else {
@@ -184,6 +235,10 @@ sub weeks($$$)
   my $W = shift;        # Number of weeks
   my $D = shift;        # Number of days
   my $headings = shift; # Do we have headings?
+  # Hack!  I assume review sessions are on Thursdays in MTWF classes.
+  if ($INCLUDE_REVIEW_SESSIONS) {
+    $D -= 1;
+  }
 
   my $w;                # Week counter
   my $d;                # Day counter
@@ -198,8 +253,13 @@ sub weeks($$$)
     for ($d = 0; $d < $D; $d++) {
       day();
     } # for each day
+    # Add the review sessions and any extra days
+    if ($INCLUDE_REVIEW_SESSIONS && ($D == 3)) {
+      review();
+    }
+    day();
   } # for
-} # labWeek
+} # weeks
 
 # week()
 #   Prints the header for the next week
@@ -244,6 +304,40 @@ sub day()
       </tr>
 DAY
 } # day
+
+sub csc322Day()
+{
+  $DAY++;
+  $DAY = twoDigits($DAY);
+  print<<"DAY";
+      <tr>
+        <td>$DAY</td>
+        <td>&date$DAY;</td>
+        <td>&iteration$DAY;</td>
+        <td>
+          <ulink url="../outlines/outline.$DAY.html"><emphasis role="strong">&title$DAY;</emphasis></ulink>
+          <xi:include href="overviews/&abbrev$DAY;.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        </td>
+        <td>&due$DAY;</td>
+      </tr>
+DAY
+} # csc322Day()
+
+sub review()
+{
+  print<<"REVIEW";
+      <tr>
+        <td></td>
+        <td>&thu$WEEK;</td>
+        <td>
+          <emphasis role="strong"><emphasis><ulink url="../eboards/extra.$WEEK.html">Optional Review Session</ulink></emphasis></emphasis>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+REVIEW
+}
 
 # days(N)
 #   Print N days
@@ -351,6 +445,31 @@ sub lfaTop()
 TOP
 } # lfaTop()
 
+# csc322Top()
+#   Print the text at the top of a 322 page
+sub csc322Top()
+{
+  print <<"TOP";
+<section id="schedule"><title>Schedule</title>
+
+<para>
+  <emphasis>This is an <emphasis type="strong">approximate</emphasis>
+  schedule.</emphasis>
+</para>
+
+<table class="schedule">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Date</th>
+      <th>Iteration</th>
+      <th width="50%">Topic</th>
+      <th width="25%">Work Due</th>
+    </tr>
+  </thead>
+TOP
+} # csc322Top()
+
 # bottom()
 #   Print the text at the bottom of the page
 sub bottom()
@@ -379,13 +498,11 @@ sub mwfTop()
   due dates the same.)</emphasis>
 </para>
 
-<!--
 <para>
   Some of the information here can also be found in
   <ulink url="&gcal;">the Google calendar for the course</ulink>, which
   is available at &lt;<ulink url="&gcal;"/>&gt;.
 </para>
--->
 
 <table class="schedule">
   <thead>

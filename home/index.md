@@ -4,7 +4,7 @@ Front Door
 Introduction
 ------------
 
-Welcome to the Fall 2015 section of Grinnell College's CSC 322, *Team Software
+Welcome to the Spring 2016 section of Grinnell College's CSC 322, *Team Software
 Development for Community Organizations*.  CSC 322 is an opportunity for
 you to apply the ideas and tools you learned in CSC 321 and elsewhere in
 our curriculum to real-world problems.  In particular, in CSC 322 we build
@@ -26,9 +26,6 @@ software lifecycle.
 
 Course Goals and Structure
 --------------------------
-
-*This section is closely based on what Janet Davis wrote for her 
-most recent version of the course.*
 
 In this course, you will apply agile software development principles and
 practices to a large-scale, ongoing, team project. To motivate and provide
@@ -147,7 +144,11 @@ at the beginning of each class to check announcements and such.
 
 James Shore and Shane Warden (2007), The Art of Agile Development, 1st edition. 
 
-> A nice text on the agile development methodologies we will be using
-  in CSC 322.  This text has been optional in the past, but Dr. Davis
-  suggested requiring it this year.
+> A nice text on the agile development methodologies.
 
+Citations
+---------
+
+Much of this course and the corresponding syllabus were developed using
+Janet Davis's resources.  I think her for her careful development of the
+course and her willingness to allow me to reuse her resources.

@@ -1,5 +1,5 @@
-CSC322.01 2015F, Class 04: Mentor Meetings (Tentative)
-======================================================
+CSC322.01 2016S, Class 04: Sprint 1, Week 1
+===========================================
 
 _Overview_
 
@@ -8,112 +8,169 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
+* Presentations
+* Form
+* Group Work Time
 
 Preliminaries
 -------------
 
 ### Admin
 
+* Sam is leaving early to meet with the visitor
 
-### Questions
+### Good things
 
-Tell Us About Yourself
-----------------------
+* Reception with Hilary
+* Hilary Talk
+* Swimming!  (Diving at 1pm tomorrow and Saturday)
+* Basketball 3:00 p.m. Saturday
+* Lunar New Year 5:40 Saturday, free food (to you)
+* Submit to the sequence, Grinnell's incredible sequential art publication
+* Submit to vantage point, which focuses on accessibility and disability
+* Next week's Town Hall
+* Include more details in your reports.
 
-### IY
+Presentations
+-------------
 
-Indepndent contracter, with knowledge of Ruby on Rails 
+Goals
 
-Highlights: Passing on interesting things to students. not knowing 
+* 5 important user stories
+* 1-3 goals for this week (preferably as user stories)
+* anything else from/for the broader classroom
 
-Written books.
+Next week
 
-Managed plans.
+* What you accomplished
+* Demos!
+* What went wrong
 
-Run and bikes.
+### Notifications
 
-### AL
+#### Notes
 
-Independent contractor doing Web development with Ruby on Rails.
+* "We are close to our first release.  So we are focusing more on 
+  bug fixes and such."
+* "We didn't understand that pair programming is a key part of agile 
+  development.  We'll do MUCH better next time."
 
-Really likes doing this stuff.
+#### Stories
 
-Working on a project that lots of people work on is cool, particularly
-when you get to deal withs calability.
+* "As an open source contributor, I want to be able to actually look
+  at the code and understand what it does." - Done  (4)
+* "As a teacher, I want to be able to send messages to entire classrooms 
+  easily so that I can have more time to do other things."  (3)
+* "As a developer, I need tests in place so that I can be sure that the
+  system I am deploying works."  (Goal write and implement.)  (8)
+* "As a user, I want to be able to see all the texts that have been
+  sent so that we don't waste people's time or resources." (8)
 
-Bikes and plays tennis and travels.
+#### Plan to Implement
 
-### CS
+* Everything (23 points)
 
-Works for consulting company.  Lead developer.  Work on PD site for teachers
-Does Rails and lots of other things.  A highlight is a start up they did that
-runs more or less what they do.
+#### Questions from the Class
 
-### WB
+_How did you determine the points for each task?_
 
-Works at cloud hosting platform.  Has worked on cloud stuff for many
-ears.  Hasn't worked on rails in like six years.  Does much more behind
-the scenes.  Deals much more with bigger picture than day-to-day programming
-issues, with the junior programmers do.  Cares a lot about API design.
+> WAG!
 
-Has had a long involvement with open source software.  Gave him exposure
-to lots of different kinds of things.  Wrote cool Ruby tool that let him
-meet lots of people, do lots of things, etc.
+_What service did you integrate?_
 
-What are key tools in your work?
+> Travis!  `travis-ci.org`
 
-* Everyone needs a program development environment - vi emacs IDE
-* Everyone needs a high-level understanding of a version control system.
-* Everyone needs to be used to running a testing framework.
-* Production pathway
-* Dev/Prod parity
-    * Common developer terms: The Development Environment vs. The
-      Production Environment.    E.g., You will be firing up a 
-      little Rails environment to do your tsting and development.
-      But at some time, you will be putting your code out on another
-      machine that's out there somewhere (Cloud, Server Racket,
-      our Closet)
-* "There's a lot you can do to screw up your code."
-* The development copy is the pristine copy that no one will touch.
-  You make your changes on your own copy.
-* Docker and Vagrant and such let you set up copies of the Production
-  Environment on your dev machine.
-* Use a similar model for your development in this.  Don't put on production
-  until you're really confident.
-* Continuous integration - Every time you check in code.
-* Write tests - There is a quality to your tests.
-* Communication tools - Group chat as a way to communicate and to
-  get notification from your various toolsa
-* Code review
-* Keeping track of outstanding tasks - Pivotal, Trello, etc.
-* "You spend a lot of time in your terminal; be confident/comfortable."
-* Browser tools
-* Testing Web page in every browser.
-* Capibara Web Kit 
+### Board Bank
 
-Do you use scaffolding?
+#### User Stories
 
-* It can be nice for getting set up.
-* But it can put in a lot of cruft
-* Look at things like `rails generate`, but use it carefully
-* Bundler is good for doing dependencies in rails app
+* "As a student in this class, I want a working codebase so that I
+  can actualy do something."
+* "As a user, I want to be able to enter and update my profile information
+  so that organizations can find me based on my skills." (5)
+* "As a GPCF employee, I want to be able to see appropriate branding so
+  that it is clear that this is associated with GPCF." (6)
+* "As a user, I want to be able to volunteer for other kinds of
+  activities, too, so that I can be placed with the correct organization
+  and thereby better support my community." (6)
+* "As an organization, I want to be able to filter the employees by
+  skill set so that I can narrow my deeper search to the employees
+  more relevant to the position." (8.25)
+* "As a board bank admin, I want to be able to approve organizations so
+  that no fradulant organizations (like StuACM) can access the Web site." (5)
 
-Additional
+#### Focus
 
-* We're here to help you with the overwhelming stuff
-* And because while we learned it incrementally, we understand the
-  bigger picture.
+* Get to ground level. (many)
+* Write more tests.
+* Gather last semesters students and lock them in a room until it passes
+  the tests.
+* UI work.
 
-Things to discuss in your small groups
+#### Questions
 
-* Big picture - How should we arrange the parts of the system
-* Big picture - Where are you now?  Where do you want to be at the 
-  end of the semester?  Where do you want the project to be at the end
-  of the semester.  What's our plan to get from the start to the end?
-* What are good ways for you to get and find help?
-* How should we communicate?
-* How do we start looking at the bigger projec?
-* What gems are there that will be usefl to our project?
-* What do the mentors want out of the the larger project?
+_How do you decide what skills people can list?_
 
+> Legacy code.  We will check the list with GPCF.
 
+> Also an open reponse field.
+
+_Once you get your application to look right, will you fix ours too?_
+
+> We can collaborate.
+
+_Do your tests just fail on Travis, or everywhere?_
+
+> Boom.  Crash.  We will be discussing these issues with the previous
+  group(s).
+
+### Resource Puddle
+
+#### Stories
+
+* "As a normal user, I should not be able to change things on the Web site
+  so that I don't screw things up or provide inaccurate information."
+     * 1 point approach: No non-admin login allowed.
+* "As an administrator, I want to limit what things other users can change
+  so that I can be sure that our information is reliable."
+* "As an administrator, I want to be able to make trusted people administrators
+  so that others can update information."
+* "As a community member, I want to be able to access the Web site on a
+  24-7 basis so that I can be assured of getting the resources I need when
+  I need them." (aka upload to Heroku)
+* "As an administrator, I want to be able to use a certificate so that
+  people can access the site over SSL."
+* "As a community member, I want to be able to find a service by entering
+  the name of the service (or by typing a similar name) so that I can
+  be connected to a service I already know about."
+
+#### Goals
+
+* Fix the checkboxes [1 point]
+
+#### Questions
+
+* None
+
+### Grant Application Manager
+
+#### Stories
+
+* Specific one, related to UX: "When I'm a user and I'm signed in and return
+  to the front page, I should not see the 'sign in' button." (1.5)
+* "As a user, when I submit an application, I should get an email confirmation
+  that it is successfully submitted."  (5, but we don't know how hard email
+  is)
+* "As a team, we want to assign tasks so that we can accomplish tasks in
+  parallel." (.5)
+* "As a developer, we want unit tests ready for our code." (10)
+* "As devevelopers, we want to integrate Travis so that we know how much
+  area is under Travis." (4)
+* "As a reviewer I want to rate and comment on applications so that
+  they can be compared." (6)
+
+#### Goals
+
+* UX
+* Rate and Comment
+* Tests
