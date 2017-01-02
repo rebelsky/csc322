@@ -1,4 +1,4 @@
-CSC322.01 2016S, Class 04: Sprint 1, Week 1
+CSC322.01 2016F, Class 04: Strengths Finder
 ===========================================
 
 _Overview_
@@ -8,169 +8,88 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
-* Presentations
-* Form
-* Group Work Time
+* Interpreting strengths finder results.
+* Working together in groups.
 
 Preliminaries
 -------------
 
 ### Admin
 
-* Sam is leaving early to meet with the visitor
+* Friday PSA.
 
-### Good things
+### Homework (for Wednesday)
 
-* Reception with Hilary
-* Hilary Talk
-* Swimming!  (Diving at 1pm tomorrow and Saturday)
-* Basketball 3:00 p.m. Saturday
-* Lunar New Year 5:40 Saturday, free food (to you)
-* Submit to the sequence, Grinnell's incredible sequential art publication
-* Submit to vantage point, which focuses on accessibility and disability
-* Next week's Town Hall
-* Include more details in your reports.
+* Find, download, and try to get working the current version of your
+  project.
+* Do Rails for Zombies, available at <http://railsforzombies.org/>.
 
-Presentations
--------------
+### Good Things to Do
 
-Goals
+* Hear About Diversity and Inclusion from Intercultural Affairs Candidate
+  Friday, Sept. 2 4:15 p.m., Joe Rosenfield '25 Center, Room 209
+* CS Table Tuesday: Passwords and more.
+* CS Extras Thursday: PM
+* Convo, September 8 (Thursday, 11:00 a.m., JRC 101): Roberto
+  Gonzales on "From Undocumented to DACAmented: Understanding Legal Status 
+  in a New Policy Context".  
+    * Get a free copy of his book _Lives in Limbo: Undocumented and Coming 
+      of Age in America_ by visiting Macy 203 during regular office times.
 
-* 5 important user stories
-* 1-3 goals for this week (preferably as user stories)
-* anything else from/for the broader classroom
+### Questions
 
-Next week
+About strengths finder
+----------------------
 
-* What you accomplished
-* Demos!
-* What went wrong
+* Designed by Gallup.
+* Versions for both school (Strengths Finder) and professional
+  (Strengths Quest)
+* Developed from school of positive psychology
+* Helps you identify tendencies.
+* Gallup talked to 1000s of CEOs and asked them what allowed them to
+  do their best work.
+* Gave them 300 qualities ("talents").
+* Refined that list to 34 qualitities ("themes").
+* Data is at their Web site.
+* They rank all 34 depending on your responses.
+* You can do all of them.  But you can likely pick up the top ones more
+  quickly.
+* Should you spend your energy on something you are poor at, which may
+  make you average, or something you are good or aveage at, which may make
+  you great.
+* "Talent" - Natural ways of thinking, feeling, or behaving.
+* Multiply by Investment - Things to build the skill. 
+* That gives you a strength.
+* "Strength" - Ability to consistently perform at near-perfect levels.
+* Each strength has five characteristics
+    1. Yearnings
+    2. Satisfactions (maybe an element of joy or fulfillment)
+    3. Rapid learning
+    4. Glimpses of excellence (compared to the average person); you
+       stand out compared to the average person
+    5. Total performance
+* These could also be characteristics of talents, but they are likely
+  to lead you to invest and build it toward a strength.
+* Exercise: Write your name five times with each hand
+    * We are all much faster with our dominant hand
+* My strengths and how to use them.
 
-### Notifications
+Interpreting strengths finder results
+-------------------------------------
 
-#### Notes
+* Bring up your five strengths (Sam is Learner, Strategic, Achiever,
+  Activator, and Ideation)
+* For each, give
+    * how you define it
+    * what it empowers you to do
+    * an example of how the strength came out today
+* [Exercise: Chat with each other.]
+* Scavenger hunt!
+    * Repeatedly: Find someone with a different strength and find out
+      what it means to them.
+* How do your strengths match in your team specifically?
+* We have a page that lets us look at these issues.  Fill in your
+  group's sheets.
+Working together in groups
+--------------------------
 
-* "We are close to our first release.  So we are focusing more on 
-  bug fixes and such."
-* "We didn't understand that pair programming is a key part of agile 
-  development.  We'll do MUCH better next time."
-
-#### Stories
-
-* "As an open source contributor, I want to be able to actually look
-  at the code and understand what it does." - Done  (4)
-* "As a teacher, I want to be able to send messages to entire classrooms 
-  easily so that I can have more time to do other things."  (3)
-* "As a developer, I need tests in place so that I can be sure that the
-  system I am deploying works."  (Goal write and implement.)  (8)
-* "As a user, I want to be able to see all the texts that have been
-  sent so that we don't waste people's time or resources." (8)
-
-#### Plan to Implement
-
-* Everything (23 points)
-
-#### Questions from the Class
-
-_How did you determine the points for each task?_
-
-> WAG!
-
-_What service did you integrate?_
-
-> Travis!  `travis-ci.org`
-
-### Board Bank
-
-#### User Stories
-
-* "As a student in this class, I want a working codebase so that I
-  can actualy do something."
-* "As a user, I want to be able to enter and update my profile information
-  so that organizations can find me based on my skills." (5)
-* "As a GPCF employee, I want to be able to see appropriate branding so
-  that it is clear that this is associated with GPCF." (6)
-* "As a user, I want to be able to volunteer for other kinds of
-  activities, too, so that I can be placed with the correct organization
-  and thereby better support my community." (6)
-* "As an organization, I want to be able to filter the employees by
-  skill set so that I can narrow my deeper search to the employees
-  more relevant to the position." (8.25)
-* "As a board bank admin, I want to be able to approve organizations so
-  that no fradulant organizations (like StuACM) can access the Web site." (5)
-
-#### Focus
-
-* Get to ground level. (many)
-* Write more tests.
-* Gather last semesters students and lock them in a room until it passes
-  the tests.
-* UI work.
-
-#### Questions
-
-_How do you decide what skills people can list?_
-
-> Legacy code.  We will check the list with GPCF.
-
-> Also an open reponse field.
-
-_Once you get your application to look right, will you fix ours too?_
-
-> We can collaborate.
-
-_Do your tests just fail on Travis, or everywhere?_
-
-> Boom.  Crash.  We will be discussing these issues with the previous
-  group(s).
-
-### Resource Puddle
-
-#### Stories
-
-* "As a normal user, I should not be able to change things on the Web site
-  so that I don't screw things up or provide inaccurate information."
-     * 1 point approach: No non-admin login allowed.
-* "As an administrator, I want to limit what things other users can change
-  so that I can be sure that our information is reliable."
-* "As an administrator, I want to be able to make trusted people administrators
-  so that others can update information."
-* "As a community member, I want to be able to access the Web site on a
-  24-7 basis so that I can be assured of getting the resources I need when
-  I need them." (aka upload to Heroku)
-* "As an administrator, I want to be able to use a certificate so that
-  people can access the site over SSL."
-* "As a community member, I want to be able to find a service by entering
-  the name of the service (or by typing a similar name) so that I can
-  be connected to a service I already know about."
-
-#### Goals
-
-* Fix the checkboxes [1 point]
-
-#### Questions
-
-* None
-
-### Grant Application Manager
-
-#### Stories
-
-* Specific one, related to UX: "When I'm a user and I'm signed in and return
-  to the front page, I should not see the 'sign in' button." (1.5)
-* "As a user, when I submit an application, I should get an email confirmation
-  that it is successfully submitted."  (5, but we don't know how hard email
-  is)
-* "As a team, we want to assign tasks so that we can accomplish tasks in
-  parallel." (.5)
-* "As a developer, we want unit tests ready for our code." (10)
-* "As devevelopers, we want to integrate Travis so that we know how much
-  area is under Travis." (4)
-* "As a reviewer I want to rate and comment on applications so that
-  they can be compared." (6)
-
-#### Goals
-
-* UX
-* Rate and Comment
-* Tests

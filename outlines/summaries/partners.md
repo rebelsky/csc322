@@ -1,2 +1,2 @@
-We plan for and meet with our partners to gain an initial perspective on
-the projects.
+We get initial perspectives on our community partners as we prepare to work
+with those partners across this semester.

@@ -1,5 +1,5 @@
-CSC322.01 2016S, Class 05: Iteration 0: Wrapup
-==============================================
+CSC322.01 2016F, Class 05: Resume Reviews
+=========================================
 
 _Overview_
 
@@ -8,208 +8,129 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
-* Presentation format.
-* Preparation time.
-* Presentations.
-* Work time.
+* Strengths quest.
+* Quick team-building exercise.
+* More extensive resume reviews.
 
 Preliminaries
 -------------
 
 ### Admin
 
-* Missing: BL
-* Don't forget to submit weekly electronic reports on Wednesday nights.
-  I only think I got two last night (Grant Board and Resource Portal).
-* We will be working on bi-weekly in-class presentations, starting this week. 
-  (Details in the outline/eboard.)
-* It's probably time to check in with your clients and mentors, if you haven't
-  done so already.  Clients should be in-person meetings; mentors will 
-  probably be Skype.   I generally suggest the last hour or two of class
-  for such meetings.
-    * Do you have any planned meetings?
-* Reminder: You have responsibility to your team; if you can't be in class,
-  let them know in advance.
+* We are looking at resumes today because (a) there's a professional
+  development part of CSC 322; (b) I think it helps in team building;
+  (c) We'll have someone here on Thursday talking about tech 
+  resumes, so developing questions would be good; and (d) Janet put
+  it in the class structure.
+
+### Homework (for Wednesday)
+
+* Find, download, and try to get working the current version of your
+  project.
+* Do Rails for Zombies, available at <http://railsforzombies.org/>.
+
+### Good Things to Do
+
+* CS Table Tuesday: Passwords and more.
+* Convo, September 8 (Thursday, 11:00 a.m., JRC 101): Roberto
+  Gonzales on "From Undocumented to DACAmented: Understanding Legal Status 
+  in a New Policy Context".  
+    * Get a free copy of his book _Lives in Limbo: Undocumented and Coming 
+      of Age in America_ by visiting Macy 203 during regular office times.
+* CS Extras Thursday: PM on PL.
+* AppDev Thursday
 
 ### Questions
 
-Presentation Format
--------------------
+Strengths quest
+---------------
 
-These presentations will be every-other week, so that you have more work
-time in the alternate weeks.
+* Positives
+    * Under the premise that this is correct, some of the teams feel
+      very imbalanced.
+* Negatives
+    * Felt like a rushed experience, and then you get pegged into
+      certain categories.  Felt strange.  (Goal is to be rushed, to
+      see what seems more 'natural' to you.)  (Unless your natural
+      approach is analysis.)
+    * Frustrating that there were often "both" and "neither".
+    * Circular logic.
+* Questions
+    * Are all computer scientists strategic thinkers?
 
-* _Intended Goals_.  Remind us of your goals for the time period and
-  the points you associated with those goals.
-* _Overview of Accomplishments_.  Which of those goals did you accomplish?
-  What other (unexpected) things did you deal with along the way?  And
-  what points would you assign to them?
-* _Demo_.  Show off the current state of your system, focusing on the
-  parts you were working on.
-* _Code Walkthrough_.  Show us an interesting part of your code from the
-  past two weeks and explain it to us.  (Optional today.)
-* _New Goals_.  What do you intend to accomplish over the next 
-  two-week iteration? What points have you assigned to each task?
-  How are you dividing the work?
-* _Questions_.  Questions to your peers.  Questions from your peers.
+Quick team-building exercise
+----------------------------
 
-Please strive for organized and coherent presentations.
+Read your colleagues' resumes.  Assume you did not know them.  What do
+the resumes tell you about the people you will be working with?  
 
-Time To Prepare Presentations
+GAM
+
+* Irresponsible.  Strategic.
+* Pretty.  Well qualified.  Well rounded.
+* Diverse experience, including tutoring.  Doesn't know how to use
+  technology.
+* Web and development experience.  Takes the time to format resume
+  well.  Seems to have a direction he wants to go.  Resume coheres.
+
+Board Bank
+
+* Experience is primarily from classes.  Worked as mentor.  Probably
+  someone who will help others.
+* Broad experience in many fields.  Knows about lots of things.  Likely
+  to bring creative ideas.
+* Real-world experience.  Experience in bioinformatics and econ.
+  Experience using SCRUM, so will help us do agile.
+* Research and mentoring.  Knowledgable.
+* Data visualization and visual art - can make UI better.
+
+Resource Portal
+
+* Internship experience and concerts chair.  Leadership potential.
+* Strong technical skills through great internship experience.  Can
+  explain things well.  (Although that elicited laughter.)
+* Experience creating Web apps and working on different platforms.
+  Likely to pick up the technology well.  Can help us structure the
+  app.  Can help us deal with a big project.
+* Lot of startup and government experience.  Can bring in real development
+  techniques.  Knows what a good team should be, and will help us become
+  that team.
+* Lots of experience teaching people; will help us learn things that we
+  don't know.  Probably thinks well about organizing and providing information.
+
+Head Start
+
+* Public speaking and communication skills.  Will help us market it.
+* From local community.  Knows schools etc.  Can help contextualize
+  and work with partners.
+* Working in groups, as assistant and as a manager.  Can work well
+  with others.
+* Two summers at IBM, working on SMS-based apps.  Will know a lot about
+  the technologies we'll be using.  Passionate.  Interesting technical
+  skills.
+* Baseball captain - leadership skills.  Tutor, so great at helping
+  others.
+
+How do the skills you identified in your group cohere?
+
+What role(s) do you expect that each member of the group will play?
+
+* Manager - keeping people on task, making sure that everyone contributes
+  and that everyone's voice is heard, etc.
+* Coordinator - interface with clients and alumni mentors.
+* Communicator - responsible for presentations.
+* UX.
+* Front-end developer.
+* Back-end developer.
+* Testing.
+* SysAdmin.  (Installs, etc.).
+* ...
+
+More extensive resume reviews
 -----------------------------
 
-You will have some time to work on your presentations.
+Questions for JDC'81
 
-Presentation: Notifications
----------------------------
-
-### Goals
-
-* Send a message to the classroom [3] NO
-* See all the texts that have been sent [8] NO
-* Get Cucumber running and write cucumber tests [8] Yes
-* Learn enough CSS to contribute/pair [0] Yes
-* Restructure the CSS folder [4] Yes
-* Make the repo installable [2] Yes
-* Configure Heroku [2] No, but not necessary
-
-Sam says: 
-
-* You are supposed to work in pairs (or, better yet, as a whole team)
-* You are not supposed to insult your group mates
-* Share!
-* Include points
-* Include goals that were not accomplished
-
-### Accomplishments
-
-* Get Cucumber running and write cucumber tests [8] Yes
-* Learn enough CSS to contribute/pair [0] Yes
-* Restructure the CSS folder [4] Yes
-* Make the repo installable [2] Yes
-* Get money to pay for text messaging [1] Yes
-
-Velocity of 14.
-
-* 86% code coverage
-* Last week 6/337 passed.  Now 307/337 pass.  Yay!
-
-### Demo
-
-* Look!  Tests!  Unfortunately, we are sending texts as part of our tests
-  and we have no idea where they are going.
-* Look!  Pretty buttons!  No documentation!  We'll work on it.
-
-### Code
-
-* Look!  Undocumented code.
-
-### Plans
-
-* Stomp all of the bugs. [9] (LG and AM)
-* Message history. [8] (LG and AM)
-* More Cucumber tests for privacy stuff [5] (EE and RHB)
-* Get RSpec running [2] (EE and RHB)
-* Document general design of CSS [4] (CMV and KC)
-* Finalize mockup for send a message [1] (CMV and KC)
-* Finalize mockup for history [1] (CMV and KC)
-* Finalize mockup for settings [1] (CMV and KC)
-* Finalize mockup for login [1] (CMV and KC)
-* Finalize mockup for admin path [1] (CMV and KC)
-* Finalize mockup for classrooms [1] (CMV and KC)
-* Finalize mockup for edit users [1] (CMV and KC)
-
-### Questions
-
-_How will you do a better job of working together?_
-
-> We will try harder.  And it seems like we are moving on to things that
-  are better done in pairs.
-
-_What kinds of cukes are you writing?_
-
-> Mostly Web stuff.  Get it working.
-
-_Can Leah leave now?_
-
-> Yes.
-
-Presentation: Board Bank
-------------------------
-
-### Goals
-
-* Getting to ground level! 
-* Get Travis to run the tests. [ ] 
-* Restructure HTML and CSS and other files.  DRY it out.  [ ]  
-* Update all the Gems.  Yay version mismatches! [ ]
-* Implement elastic search, which wasn't working properly [ ]
-* Learned not to install external libraries into source code. [ ]
-* Updated README [ ]
-
-### Accomplishments
-
-* Get Travis to run the tests. [ ]  Somewhat.
-* Restructure HTML and CSS and other files.  DRY it out.  [ ]   Somewhat.
-* Update all the Gems.  Yay version mismatches! Learned pipeline issues.  Broke things. [ ]
-* Met with previous semester's people.  They can't help. [ ]
-* Implement elastic search, which wasn't working properly.  Seems to
-  be working. [ ]
-* Learned not to install external libraries into source code. [ ]
-* Updated README [ ]
-
-### Demo
-
-* Search!  Yay!
-* Broken UI!  Boo!
-
-### Code
-
-* Not today.
-
-### Plans
-
-### Questions
-
-Presentation: Grant Application Management
-------------------------------------------
-
-### Goals
-
-### Accomplishments
-
-* Install Travis [6]
-* Assign roles [.5]
-* Implement "as a user I don't want stupid messages when I log in because
-  I hate being irritated. [-1]
-
-### Demo
-
-### Code
-
-### Plans
-
-* Talk to previous team and/or Alex about AWS issues. [2]
-* Finalize reviewer functionality.  (Meet with Nicole.) [7]
-* Write tests for reviewer functionality. [8]
-* Clean up Cucumber tests - write step definitions. [8]
-* Need email sending gem. [6]
-* DRY out the code / refactor / clean up. [5]
-* Walk through user paths manually, and then with cucumber [8]
-
-### Questions
-
-### Goals
-
-### Accomplishments
-
-### Demo
-
-### Code
-
-### Plans
-
-### Questions
-
-Work Time
----------
+* What do you think about the two-column resumes that Sam finds hideous?
+* How should one describe different levels of mastery of programming languages?
+* GPA?

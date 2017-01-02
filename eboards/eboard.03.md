@@ -1,5 +1,5 @@
-CSC322.01 2016S, Class 03: Mentor Meetings
-==========================================
+CSC322.01 2016F, Class 03: About the Partners
+=============================================
 
 _Overview_
 
@@ -8,195 +8,165 @@ _Overview_
     * Upcoming Work.
     * Extra Credit.
     * Questions.
-* Introductions of the Students.
-* Introductions of the Mentors.
-* Q and A with the Mentors.
-* Things to talk about with the Mentors.
-* Work time with the Mentors.
+* Prebrief on client meetings.
 
 Preliminaries
 -------------
 
+* Susan Sanning from CLS will run most of today's class.
+* I'll try to take notes, but you should also take your own notes.
+
 ### Admin
 
-* Reminder: Mentors here all class period.  Talk (optional).  Dinner (expected).
-* Work for next week: Plan for your first two-week sprint.  Tasks and the 
-  anticipated points each task.  (Also include some of the tasks that you
-  de-prioritized.)
-* Plan weekly status reports to all four mentors and Sam.  (Sent by
-  8pm Wednesday evening.)
-    * What did you accomplish?
-    * What do you hope to accomplish?
-    * What obstacles stand in your way?
-    * What resources will help you accomplish your task?
+* Group assignments distributed on Monday afternoon.
+* I know that many of you are frustrated to be finishing mostly-done
+  projects.  Our alumni mentors are concerned about this issue, too.
+  So we may be combining "Finish one project" and "Start a new project".
+  Susan Sanning and I are looking at new projects.
 
-Student Introductions
----------------------
+### Homework
 
-* Name, year, major
-* Favorite Pokemon
-* How familiar are you with the technologies we're using this semester?
-* Where are you from?
-* What is a passion in your life?
+* Find, download, and try to get working the current version of your
+  project.
+* Do Rails for Zombies, available at <http://railsforzombies.org/>.
 
-Alumni Introductions
---------------------
+### Good Things to Do
 
-IGY
+* CS Extras (Thursday, 4:15 p.m., 3821): Graduate school
+* Hear About Diversity and Inclusion from Intercultural Affairs Candidate
+  Friday, Sept. 2 4:15 p.m., Joe Rosenfield '25 Center, Room 209
+* Convo, September 8 (Thrusday, 11:00 a.m., JRC 101): Roberto
+  Gonzales on "From Undocumented to DACAmented: Understanding Legal Status 
+  in a New Policy Context".  
+    * Get a free copy of his book _Lives in Limbo: Undocumented and Coming 
+      of Age in America_ by visiting Macy 203 during regular office times.
+* Grinnell Prize Winners first week of October.  
+    * Workshop on sustaining your social justice dream
+    * Workshop on making a career of changing the world
+    * Workshop on fun and ding your social just dream
+     
+Everything you wanted to know about meeting with clients, but didn't know to ask
+--------------------------------------------------------------------------------
 
-From MN.  Lives in SDCA.  Was a Plans admin.  That got him a job.  Has
-done Web Dev at three companies.  Now does freelance work.  Mostly Ruby
-on Rails.
+_Susan Sanning is our community outreach coordinator with CLS._
 
-Likes to run (triathalons), rock climbing, code for fun.  Mostly spends his
-time outside.
+Question: What does our community think about Grinnell Colelge students?
 
-CK
+* Rich, privileged
+* Raucous
+* Drink a lot
+* Super liberal
+* Self-centered
+* Think they can walk in the middle of the street whenever they want
 
-From IA.  Lived in Des Moines for too long.  Now in Seattle.  Did Web Dev
-out of college.  Founded printwhatyoulike.com with another alum.  Traveled.  
-Works for consulting company.  No longer does Rails, but hosts Seatle.rb.
-Also grinnellgallery.com.
+How about positives?
 
-Likes to run (triathalons), climb mountains, take photos.
+* Study hard
+* Smart, really smart
+* Volunteer a lot
+* Access to skills that don't necessarily exist in our community
 
-WB
+On that last item
 
-From IA.  TC manager.  Did tech support for a few years.  Chain of startups.
-Spent 2.5 years or so at the previous job, now at present job for four years.
-Works at Heroku/Salesforce.  Lives in IA City.
+* In a larger city, many of the things our class (and other classes) do 
+  would be done by a local company or consultant or ...
+* You have a chance to effect this community
 
-Likes to make furniture, design board games, support open source, run
-cool tech festivals in IA City, bouldering, API design.
+Grinnell trivia (that is not trivial)
 
-Questions for Alums
--------------------
+* What is the unemployment rate in this community?  12% 30% 6%.  It's 2-3%
+* What is the poverty rate in this community?  20%  30%  15%.  Depending on
+  who you ask it's between 30% and 60%.  About 40% of our students are on
+  free and reduced lunches.
+* Our community members are chronically underemployed/underpaid, working
+  multiple jobs, and don't have a lot of time to do things.
+* Who has access to Internet in our community?  Poverty is an issue.
+  Rurality is an issue.  Transportation is an issue.
+* There is a lot of consolidation and putting things online.
+* $400+/month for 30 gb rural Internet connections (ouch!)
+* For the MICA projects, we should be paying a lot of attention to bandwidth
+  and related issues.
 
-Challenges in moving from class-size projects to real-world software
-development?
+Why are you here?
 
-> A lot of things go on around of writing the actual code.  Learning to
-  work functionally with a bunch of other people.  Work with a large code
-  base that others have been working on already and that new people will be
-  working on in the future.
+* Required.
+* Making a difference seems important.  Like doing something impactful.
+* Learn about making software.
+* Make things that people will use.
+* Applicable skills.
+* Looks good on my resume.
+* Assorted other ones that I can't hear.
 
-> Many things are no longer under your control.  Someone else will make many
-  of your decisions for you, and some of them will be wrong.
+What will be harder in terms of working with clients?
 
-> The big challenge isn't necessarily getting it to work, but keeping it
-  working (e.g., scaling, dealing with things that have to change but people
-  rely upon).  When hundreds, thousands, or hundreds of thousands of people
-  are working on something, it's hard to change something.
-  
-> Security (a completely different mindset).
+* People who understand less about technology.  That means we have to
+  work on 
+    * communication skills 
+    * translation
+    * managing expectations
+    * higher standards / mistakes have different implications
+* Time management 
+    * Certain times of day
+    * Need to make appointments
+    * Need to communicate when you need to push deadlines because, for
+      example, you've found a glitch
+    * Missing things has a cascade effect
+    * And you are taking them away from important things, so use their
+      time wisely.
+* Assess professional dress.
+* Communication: 
+    * Should you text at 3am?  Probably not, unless they say that they
+      turn their phones off.
+    * Better: Email, phone call, *whatever they tell you*
+    * Lead time!  How much do you need?
+* Think about Iowa Nice!
+* Ask people about response windows!
+* "Sam plans differently"
 
-> A very different mindset doing something multiple times per second than
-  doing it once or twice.
+What do you know about GPCF?
 
-> You don't always get the option to start over.  You have something and
-  that's the way it is.  "Make it function well enough."
+* Granting organization
+* Provides back-office support for nonprofits.  How do I help the
+  organizations that I give to run better?
+* All non-profits must have a board of directors.
+* Grant application management systems cost a lot of money
+* Our nonprofits are funded by grants, so it's important that they get
+  funding.
 
-> Realizing that you should a dev version and a release version and they
-  are separate (and you use tools to transition between the two), but
-  similar as possible.  (And perhaps a QA version.)
+Head Start
 
-What is it like to have to work in an organization?
+* Makes preschool accessible to those who might not otherwise have access
+* Provides access to resources that might not otherwise be available
+  (to both kids and their families)
 
-> There's a reason that IY is an independent contractor.
+Resource Guide
 
-> It depends on the type of organization.  When you first come out of school,
-  you don't have a lot of capital.  But after that, you can consider what
-  the best social "fit" is for you.
+* How is information disseminated in rural small town America ... word
+  of mouth, churches, etc.
+* There isn't a good one-stop shop for finding out about resources.
+* Even those who provide support don't know all of the resources.
 
-> As you go through more and more jobs, you realize what works for you and
-  what doesn't work for you.
+Transportation
 
-> In our industry, transitions are the norm and not bad things on your 
-  resume.
+* Most of the time, you can walk.
+* We have a request form for transportation.  48 business hours ahead
+  of time.
+    * 19+ plus two-years of clean driving record lets you sign up  
+      to drive
+    * Certified driver is a paid gig.
+* Go in groups
 
-What are your favorite tools?
+Opportunities
 
-> Chat rooms.  (Lots of options.)  Feel connected, without feeling
-  synchronous.  (Come back when you have time.)  Slack, IRC, and the ilk.
+* We have service-learning work-study positions.  Next semester you
+  can get paid to support the rollout/launch of the project.
 
-> Skype and video chat.  You will often be dealing with a bunch of
-  remote workers, and you do have to have meetings.
+Other Notes
 
-> Trello and Pivotal tracker to keep track of projects.  (Or some tool
-  to organize what needs to be done.)
-
-> Github, with pull requests to communicate on changes.  Once you know
-  what you're doing, it's easy to set up a Git repo.
-
-> vim
-
-> Google docs - Helpful for collaborating on written word, particularly
-  adding comments and such.  A pairing environment for non-code.
-
-What are your favorite gems?
-
-> Sinatra.  A pared down version of rails - some templating, router,
-  not much else.  (But Rails is nice because everything is packaged
-  together and "it just works".) (For more advanced users, Rails has
-  a lot of cruft that they don't need.)
-
-> Pliny.  API development on top of Sinatra.
-
-> ActiveAdmin, which most of the teams are using.  Makes it really easy
-  to set up administrative stuff.
-
-> Quiet_Asset, which removes some cruft from your Rails log.
-
-> FactoryGirl, useful for testing - makes it much easier to set up
-  particular properties of objects.
-
-> RSpec, or perhaps some other testing framework.
-
-> Capybara, if you're doing integration testing.
-
-> Pry, useful for debugging.  Opens a console at particular locations
-  in your code, plus a better Rails console (which may now be part of
-  Rails).
-
-> Learn to use the Rails console.
-
-How do you keep track of all of this?
-
-> User groups.
-
-> Weekly reports (Ruby weekly, HTML 5 weekly, ...)
-
-> Talk to people.
-
-How long will it take you to get up to speed?
-
-> More than a year, but probably less than a year.  Three months of
-  full time - get it to do what you want it to do, but within a particular
-  realm.
-
-What do you need to know?
-
-> Rails
-
-> Ruby
-
-> HTML and CSS
-
-> Database / SQL
-
-> Heroku
-
-> Javascript
-
-> You won't learn all of them, but you will have seen and experienced
-  all of them.
-
-Meetings
---------
-
-* How to be in touch, how to stay in touch, how often to Skype/videochat
-* What should we do if we don't feel you are responding promptly?  (And
-  what is "promptly" in your world?)
-* What do you want to hear from us?
-* How have you best served as a resource for your prior teams
-* Look at code and workflow together.
+* Kristina Weber can be a resource for folks working with MICA.
+* Danielle is incredibly busy ... oversees five different sites.
+  Good at setting boundaries.
+* Chris Hunter from Sociology is on the board of MICA.
+* Jamie Chambers from MICA/Marshalltown is our tech contact.
+* Good question: Who else in your organization should we talk to?
+* We need to think about confidentiality agreements.

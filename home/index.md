@@ -4,13 +4,19 @@ Front Door
 Introduction
 ------------
 
-Welcome to the Spring 2016 section of Grinnell College's CSC 322, *Team Software
+Welcome to the Fall 2016 section of Grinnell College's CSC 322, *Team Software
 Development for Community Organizations*.  CSC 322 is an opportunity for
 you to apply the ideas and tools you learned in CSC 321 and elsewhere in
 our curriculum to real-world problems.  In particular, in CSC 322 we build
 software projects that support organizations in our local community.  This
 semester we will be working on projects for both the Ahrens Community
 Foundation and Mid-Iowa Community Action (MICA).
+
+This semester, we are trying a new model for the course.  Instead of one
+three-hour meeting each week, we will be having three one-hour meetings
+each week for the first half of the semester, and three two-hour meetings
+each week for the second half of the semester.  This approach gives you
+the opportunity to "ramp up" in how you work on the material.
 
 Catalog Description
 -------------------
@@ -112,9 +118,9 @@ to be even less organized than normal.
 Basics
 ------
 
-*Meets*: Thursday 1:00-3:50.  Our default location is 3818, but we will likely
+*Meets*: MWF 2:00-3:00 or 1:00:3:00.  Our default location is 3819, but we will likely
 be working in a variety of locations.  You should plan to spend about
-four or five hours per week on homework outside of class time.
+six hours per week on this class, between in-class and out-of-class time.
   
 *Instructor*: 
 [Samuel A. Rebelsky](http://www.cs.grinnell.edu/~rebelsky/)
@@ -125,8 +131,8 @@ I also tend to follow an open door policy: Feel free to stop by when my
 door is open or to make an appointment for another time.
 
 *Class Mentor*:
-Nora Bresette Buccino
-[[bresette](mailto:bresette@grinnell.edu)].
+Sooji Son
+[[bresette](mailto:sonsooji@grinnell.edu)].
 Office hours: TBD.
 
 *Grading* (subject to change)

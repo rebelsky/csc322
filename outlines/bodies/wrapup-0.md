@@ -1,8 +1,21 @@
+Weekly Reports
+--------------
+
+Start this week, every Sunday night each group should send a weekly
+report to me and to *all* the mentors (not just yours).  The report
+should cover the following four points.
+
+* What did you accomplish during the past week?
+* What do you hope to accomplish in the coming week?
+* What obstacles stand in your way?
+* What resources will help you accomplish your task?
+
 Presentation Format
 -------------------
 
-These presentations will be every-other week, so that you have more work
-time in the alternate weeks.
+We will have presentations every week.  We'll alternate between quick
+presentations (next week) and more substantive presentations.  Today's
+will fall somewhere in between.
 
 * _Intended Goals_.  Remind us of your goals for the time period and
   the points you associated with those goals.
